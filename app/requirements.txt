@@ -1,0 +1,9 @@
+# requests 
+# selenium
+# schedule
+# pytz
+argparse
+pytz==2024.2
+requests==2.32.3
+schedule==1.2.2
+selenium==4.25.0
