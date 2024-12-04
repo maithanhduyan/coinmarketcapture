@@ -56,13 +56,13 @@ def take_capture(config):
         screenshot_filename = f'images/coingecko_{timestamp}.png'
         
         # Tìm thẻ table
-        table = driver.find_element(By.XPATH, "//table[@data-coin-table-target='table']")
+        # table = driver.find_element(By.XPATH, "//table[@data-coin-table-target='table']")
         
         # Chụp màn hình và lưu lại
-        # driver.save_screenshot(screenshot_filename)
+        driver.save_screenshot(screenshot_filename)
 
         # Chụp hình thẻ table và lưu vào file
-        table.screenshot(screenshot_filename)
+        # table.screenshot(screenshot_filename)
         
         print(f'Đã lưu ảnh chụp màn hình vào {screenshot_filename}')
 
